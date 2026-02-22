@@ -1,0 +1,18 @@
+# Ignore large data and reference files
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.sra
+*.bam
+*.sam
+*.fa
+*.fasta
+*.gtf
+
+# Ignore the specific data directories
+*/data/
+*/results/
+
+# Ignore system files
+.DS_Store
+.ipynb_checkpoints
