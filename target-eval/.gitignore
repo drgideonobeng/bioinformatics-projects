@@ -1,0 +1,27 @@
+# Large / generated files
+data/raw/*
+data/processed/*
+results/*
+figures/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/.gitkeep
+!figures/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
