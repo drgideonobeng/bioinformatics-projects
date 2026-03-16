@@ -1,0 +1,11 @@
+# Ignore raw data and large objects
+data/
+results/objects/
+
+# Ignore R system files
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore System files
+.DS_Store
