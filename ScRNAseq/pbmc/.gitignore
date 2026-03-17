@@ -1,11 +1,10 @@
 # Ignore raw data and large objects
 data/
-results/
+results/objects
 
 # Ignore R system files
-*.Rhistory
-*.RData
-.Rproj.user/
+.Rhistory
+.RData
 .Ruserdata
 
 # Ignore OS files

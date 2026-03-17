@@ -1,0 +1,12 @@
+# Ignore raw data and downloaded files
+data/
+*.tar.gz
+
+# Ignore massive Seurat objects
+results/objects/
+*.rds
+
+# Ignore R environment junk
+.RData
+.Rhistory
+.DS_Store
