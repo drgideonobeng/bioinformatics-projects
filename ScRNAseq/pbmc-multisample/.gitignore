@@ -1,0 +1,11 @@
+# Ignore data and results folders completely
+data/
+results/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore R history and environments
+.Rhistory
+.RData
+.Ruserdata

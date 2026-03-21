@@ -1,4 +1,4 @@
-name: ScRNAseq
+name: scRNAseq
 channels:
   - conda-forge
   - bioconda
@@ -9,3 +9,6 @@ dependencies:
   - r-tidyverse=2.0.0
   - r-patchwork=1.3.2
   - r-fs=1.6.6
+  - bioconductor-singler
+  - bioconductor-celldex
+  - bioconductor-singlecellexperiment
